@@ -7,6 +7,22 @@
 #include <cmath>            // Para calcularmos o desvio padrão
 
 
+/*
+Para compilar e executar este código no terminal, siga estes passos:
+
+1. Abra o terminal na pasta onde está o arquivo bench_all.cpp.
+2. Compile usando o comando:
+    g++ -O2 -std=c++11 -o bench_all bench_all.cpp
+3. Execute o programa com:
+    ./bench_all
+
+Se estiver no Windows usando o cmd ou PowerShell, use:
+    g++ -O2 -std=c++11 -o bench_all.exe bench_all.cpp
+    bench_all.exe
+
+Certifique-se de ter o compilador g++ instalado (parte do MinGW ou WSL no Windows).
+*/
+
 
 // Troque os valores dos macros à baixo para modificar algumas configurações dos testes
 #define VARIABLE_TEST_1         10000000000 // Somar +1 10 Bilhões de vezes em um único thread
